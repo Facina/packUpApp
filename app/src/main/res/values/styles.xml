@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
+    <!-- Action Bar Style -->
+    <style name="actionBar">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <!-- SearchBar Style -->
+
+    <style name="searchBar" parent="CardView">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardCornerRadius">2dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <!-- SearchBar Icon-->
+
+    <style name="searchBarIcon">
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+
+    <!-- Tabs Style -->
+    <style name="categoryTabs" parent="Widget.Design.TabLayout">
+        <item name="android:focusable">true</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="tabIndicatorColor">@color/colorPrimaryDark</item>
+        <item name="tabSelectedTextColor">@color/colorPrimaryDark</item>
+        <item name="tabTextAppearance">@style/categoryTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="categoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- Title Style -->
+    <style name="title">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <!-- Questions -->
+    <style name="question">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+
+    </style>
+
+    <!-- Subtitle Style -->
+    <style name="subtitle">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/light_grey</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <!-- Subtitle Style -->
+    <style name="checkbox">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <!-- Header 1(Large) -->
+    <style name="h1">
+
+    </style>
+
+    <style name="bottomDoubleButton" parent="CardView">
+        <item name="cardElevation">10dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+
+    <style name="buttomTextView" >
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <!-- TextView Style -->
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <!-- Button Style -->
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+
+    <!-- Edit Text Layout Style -->
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/spinner_style</item>
+    </style>
+
+
+    <style name="spinnerHeader">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+</resources>

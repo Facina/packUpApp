@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/preferenceQuestionListItemRootFrameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:background="@drawable/gradient_primary_background"
+
+    >
+
+
+    <!-- Binary Question Type -->
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/binaryQuestionItemTypeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questionListItemTextView"
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Você gosta de sair?" />
+
+
+        <ToggleButton
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/questionListItemBinaryToggleButton"
+            android:checked="true"
+            android:text=""
+            android:textOn=""
+            android:textOff=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_thumb_up_white_64dp"/>
+
+
+    </LinearLayout>
+
+    <!-- Rating Question Type -->
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/ratingQuestionItemTypeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ratingListItemTextView"
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Você gosta de sair?" />
+
+
+        <RatingBar
+            android:stepSize="1"
+            android:numStars="5"
+            android:layout_gravity=""
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:progressTint="@color/yellow"
+            android:id="@+id/ratingListItemRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+
+
+    </LinearLayout>
+
+
+    <!-- EditText Question Type -->
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/editableQuestionItemTypeLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editableListItemTextView"
+            style="@style/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Você gosta de sair?" />
+
+
+        <android.support.v7.widget.CardView
+            style="@style/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ratingListItemBinaryToggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+</FrameLayout>

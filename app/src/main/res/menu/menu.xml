@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/edit">
+        <menu>
+
+            <item
+                android:id="@+id/menuEditPreference"
+                android:icon="@drawable/ic_edit_black_24dp"
+                android:title="@string/editPreference"/>
+        </menu>
+    </item>
+    <item android:title="@string/register">
+        <menu>
+            <item
+                android:id="@+id/menuRegisterFraternity"
+                android:icon="@drawable/ic_add_black_24dp"
+                android:title="@string/addRep"/>
+
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/account">
+        <menu>
+            <item
+                android:id="@+id/menuEditUser"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="@string/editUser"/>
+
+            <item
+
+                android:icon="@drawable/ic_cancel_black_24dp"
+                android:id="@+id/menuLogOut"
+                android:title="@string/logOut"/>
+        </menu>
+
+    </item>
+
+    <item android:title="@string/support">
+        <menu>
+            <item
+
+                android:icon="@drawable/ic_warning_black_24dp"
+                android:id="@+id/menuReportBug"
+                android:title="@string/reportBug"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:background="@drawable/gradient_primary_background"
+
+    tools:context=".view.fragment.QuickSetupPreferenceLocation">
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintRoot"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/quickSetupQuestionsHeader"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:text="@string/locationSetup"
+                style="@style/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                style="@style/spinnerHeader"
+                android:text="@string/spinnerStateHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:elevation="5dp"
+                    app:cardCornerRadius="3dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <Spinner
+
+                    android:id="@+id/stateSpinner"
+                    android:textColor="@color/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></Spinner>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/spinnerHeader"
+                android:text="@string/spinnerCityHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:elevation="5dp"
+                    app:cardCornerRadius="3dp"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/citySpinner"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </Spinner>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/spinnerHeader"
+                    android:text="@string/landmarkHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                app:layout_constraintTop_toBottomOf="@id/constraintRoot"
+
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/quickSetupDeclineButton"
+                    style="@style/bottomDoubleButton"
+                    app:cardBackgroundColor="@color/grey"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:text="@string/back"
+                        style="@style/buttomTextView"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/quickSetupAcceptButton"
+                    style="@style/bottomDoubleButton"
+                    app:cardBackgroundColor="@color/colorPrimary"
+                    android:layout_weight="1"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" >
+
+
+                    <TextView
+                        android:text="@string/next"
+                        style="@style/buttomTextView"
+                        android:textSize="20sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,219 @@
+<resources>
+
+    <!-- Support -->
+    <string name="notYetImplemented">Not yet implemented</string>
+
+    <!-- General string -->
+    <string name="next">Proximo</string>
+    <string name="back">Voltar</string>
+    <string name="female">Mulher</string>
+    <string name="male">Homem</string>
+    <string name="other">Outro</string>
+    <string name="whatever">Tanto faz</string>
+
+
+    <!-- App Name-->
+    <string name="app_name">X_files</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- SearchBar Hints -->
+    <string name="searchBarRealEstate">Pesquisar imóveis</string>
+    <string name="searchBarChat">Pesquisar conversa</string>
+
+    <!-- Drawer Menu -->
+    <string name="edit">Editar</string>
+    <string name="editUser">Editar perfíl</string>
+    <string name="editPreference">Minhas preferências</string>
+    <string name="register">Registrar</string>
+    <string name="addRep">Republica</string>
+    <string name="logOut">Desconectar-se</string>
+    <string name="reportBug">Reportar um erro</string>
+    <string name="account">Conta</string>
+    <string name="support">Suporte</string>
+
+
+    <!-- Quick Setup Page 1 -->
+    <string name="quickSetupButtonDecline">Agora não</string>
+    <string name="quickSetupButtonAccept">Sim</string>
+    <string name="quickSetupFirstTitle">Deseja encontrar alguem para morar?</string>
+    <string name="quickSetupFirstSubtitle">Encontre a pessoa mais indicada para dividir seu futuro lar :)</string>
+
+    <!-- Sex Option Fragment -->
+    <string name="quickSetupPreferenceSexOptionQuestionUserSex">Indique o seu gênero:</string>
+    <string name="quickSetupPreferenceSexOptionQuestionMatchingSex">Indique o sexo do seu futuro colega:</string>
+    <string name="step1">Vamos começar</string>
+
+
+    <!-- Warnings -->
+    <string name="warningSelectGender">Escolha um gênero.</string>
+    <string name="quickSetupGenderHeader2">Mais um pouco</string>
+    <string name="quickSetupGenderQuestion2">Com quem deseja dividir seu novo lar?</string>
+    <string name="findIdealGroup">Procurando grupo de pessoas mais adequadas...</string>
+
+
+    <!-- Links -->
+    <string name="preference_questions">http://suckow.com.br/marcelo/xfiles/fetch_preference_questions.php</string>
+
+    <!-- Database Fields -->
+    <string name="tagQuestionType">questionType</string>
+    <string name="tagQuestion">question</string>
+    <string name="tagIdPreferenceQuestion">idPreferenceQuestion</string>
+
+    <!-- Shared Preferences -->
+    <string name="publicInformation">publicInformation</string>
+    <string name="numberOfPreferenceQuestions">numberOfPreferenceQuestions</string>
+    <string name="userInformation">userInformation</string>
+    <string name="serverIdAccount">idAccount</string>
+
+
+    <!-- Page 1 -->
+
+
+    <!-- Shared Preferences - Signed In -->
+    <string name="signedIn">signedIn</string>
+
+    <!-- Shared Preferences - Account Type -->
+    <string name="accountType">accountType</string>
+
+    <!-- Shared Preferences - Facebook Accesss Token-->
+    <string name="facebookID">facebookID</string>
+
+    <!-- Facebook -->
+    <string name="facebook">Facebook</string>
+
+    <!-- Facebook Fields -->
+    <string name="facebook_fields">fields</string>
+
+    <!-- Facebook Fields List-->
+    <string name="facebook_fields_list">id,name,email,picture.type(large)</string>
+
+    <!-- Browse as a Guest -->
+    <string name="browseAsGuest">Acesso sem Cadastro</string>
+
+    <!-- Facebook Sign Up -->
+    <string name="facebookSignUp">Continuar com Facebook</string>
+
+    <!-- Google -->
+    <string name="google">Google</string>
+
+    <!-- Google Sign Up -->
+    <string name="googleSignUp">Continuar com Google</string>
+
+    <!-- Mail Sign Up -->
+    <string name="mailSignUp">Fazer uma Conta</string>
+
+    <!-- Sign Up Name-->
+    <string name="signUpName">Insira seu <b>Nome</b></string>
+
+    <!-- Sign Up Email-->
+    <string name="signUpEmail">Insira seu <b>Email</b></string>
+
+    <!-- Sign Up Password-->
+    <string name="signUpPassword">Insira sua <b>Senha</b></string>
+
+    <!-- Sign Up Confirm Password-->
+    <string name="signUpConfirmPassword">Confirme sua <b>Senha</b></string>
+
+    <!-- Sign Up -->
+    <string name="signUp">Cadastrar</string>
+
+    <!-- Already Have Account -->
+    <string name="alreadyHaveAccount">Já Possui uma Conta? </string>
+    <string name="signIn"><u>Entrar</u></string>
+
+    <!-- Terms of Service -->
+    <string name="continueAccepting">Ao continuar você está indicando que leu e aceita os nossos </string>
+    <string name="termsOfService"><u>Termos de Uso</u></string>
+
+    <!-- User Attributes-->
+    <string name="idUser">idUser</string>
+    <string name="userName">userName</string>
+    <string name="userEmail">userEmail</string>
+    <string name="imageURL">imageURL</string>
+
+    <!-- Account Attributes-->
+    <string name="idAccount">idAccount</string>
+
+    <!-- Facebook ID -->
+    <string name="facebook_app_id">350880682425990</string>
+    <string name="fb_login_protocol_scheme">fb350880682425990</string>
+
+    <!-- Email-->
+    <string name="email">email</string>
+
+    <!-- Name-->
+    <string name="name">name</string>
+
+    <!-- Picture-->
+    <string name="picture">picture</string>
+
+    <!-- Data-->
+    <string name="data">data</string>
+
+    <!-- URL-->
+    <string name="url">url</string>
+
+    <!-- Intent Extra-->
+    <string name="intentExtra">intentExtra</string>
+
+    <!-- PHP Files Path-->
+    <string name="sign_up_url">http://suckow.com.br/marcelo/xfiles/sign_up.php</string>
+    <string name="login_url">http://suckow.com.br/marcelo/xfiles/login.php</string>
+
+    <string name="errorMessage">error_message</string>
+
+    <!-- RESPONSE SQL - ID-->
+    <string name="id_user">id_user</string>
+    <string name="id_account">id_account</string>
+
+    <!-- Guest Account-->
+    <string name="guest">Guest</string>
+    <string name="guestEmail">test@test.com</string>
+    <string name="guestName">Guest User</string>
+
+
+    <!-- Email Account-->
+    <string name="emailAccount">Email</string>
+
+    <!--Password Account-->
+    <string name="passwordAccount">password</string>
+
+    <!--Password Different-->
+    <string name="passwordDifferent">*Senhas Diferentes!</string>
+
+    <!--Not Valid Email-->
+    <string name="emailNotValid">*Email inválido!</string>
+
+    <!--Empty Name Error-->
+    <string name="nameEmpty">*Preencha o seu Nome!</string>
+
+    <!--Password Length-->
+    <string name="passwordLengthError">*A Senha deve ter no mínimo 8 caracteres!</string>
+
+    <string name="invalidPassword">Senha Inválida!</string>
+
+    <!--Go Back-->
+    <string name="goBack">Voltar</string>
+
+    <string name="login">Entrar</string>
+    <string name="findIdealLocation">Procurando colegas proximos</string>
+    <string name="spinnerStateHeader">Estado:</string>
+    <string name="spinnerCityHeader">Cidade:</string>
+
+
+    <!-- States Spinner -->
+    <string-array name="state_array">
+        <item>Minas Gerais</item>
+        <item>Sao Paulo</item>
+        <item>Bahia</item>
+        <item>Santa Catarina</item>
+
+    </string-array>
+
+
+
+    <string name="locationSetup">Onde gostaria de morar?</string>
+    <string name="landmarkHeader">Locais:</string>
+</resources>
